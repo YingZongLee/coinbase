@@ -2,7 +2,6 @@ package com.cathaybk.coinbase.controller;
 
 import com.cathaybk.coinbase.config.OkHttpConfig;
 import com.cathaybk.coinbase.exception.APIException;
-import com.cathaybk.coinbase.service.CurrencyService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.junit.Test;
@@ -10,7 +9,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.ActiveProfiles;

@@ -3,8 +3,6 @@ package com.cathaybk.coinbase.vo;
 import com.cathaybk.coinbase.exception.APIResponseCode;
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.io.Serializable;
 

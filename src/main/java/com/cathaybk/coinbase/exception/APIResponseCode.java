@@ -1,6 +1,5 @@
 package com.cathaybk.coinbase.exception;
 
-import com.cathaybk.coinbase.vo.ApiResponse;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
