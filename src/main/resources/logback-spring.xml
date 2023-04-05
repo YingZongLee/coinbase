@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="logback-defaults.xml"/>
+    <!-- LOG everything at INFO level -->
+    <root level="info">
+        <springProfile name="debug">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="ERROR-FILE"/>
+            <appender-ref ref="FILE"/>
+        </springProfile>
+    </root>
+</configuration>
