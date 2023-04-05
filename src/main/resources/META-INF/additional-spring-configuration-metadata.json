@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "okhttp.connect-timeout-ms",
+      "type": "java.lang.String",
+      "description": "Description for okhttp.connect-timeout-ms."
+    },
+    {
+      "name": "okhttp.keep-alive-duration-sec",
+      "type": "java.lang.String",
+      "description": "Description for okhttp.keep-alive-duration-sec."
+    },
+    {
+      "name": "okhttp.max-idle",
+      "type": "java.lang.String",
+      "description": "Description for okhttp.max-idle."
+    },
+    {
+      "name": "okhttp.read-timeout-ms",
+      "type": "java.lang.String",
+      "description": "Description for okhttp.read-timeout-ms."
+    },
+    {
+      "name": "okhttp.write-timeout-ms",
+      "type": "java.lang.String",
+      "description": "Description for okhttp.write-timeout-ms."
+    }
+  ]
+}
